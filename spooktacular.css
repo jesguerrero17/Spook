@@ -1,0 +1,16 @@
+body{
+    background-image: url("lightning2.webp");
+    background-size: cover;
+}
+
+header{
+    background-image: url("eyes.jpeg");
+    color: #228B22;
+    font-size: 20pt;
+    text-align: center;
+    position: sticky;
+    background-size:cover  ;
+    background-position: center;
+    height: 200px;
+    
+}
