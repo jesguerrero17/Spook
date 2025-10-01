@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>
-        Error 404
-    </title>
-        <link rel="stylesheet" href="spooktacular.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trick or Treat</title>
+  <link rel="stylesheet" href="spooktacular.css">
+  <link href="https://fonts.bunny.net/css?family=creepster:400|poppins:300,400,600,800" rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        Reader beware, you're in for a scare!
-        <br>
-        <a class="links" href="Placeholder">Placeholder</a>  <a class="links" href="Placeholder">Placeholder</a>  <a class="links" href="Placeholder">Placeholder</a>  
-        
-    </header>
+  <header>
+    <h1 class="spooky-title">🎃 Trick or Treat 👻</h1>
+  </header>
 
-    <main>
-        <section>
+  <main>
+    <section class="spooky-controls">
+      <label for="play-audio" class="switch" aria-label="Toggle Audio">
+        <input type="checkbox" id="play-audio" class="sr-only" checked>
+        <!-- audio icons -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 15h-2v-6h2l3.5-4.5v15z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3l18 18"/></svg>
+      </label>
 
-        </section>
+      <button type="button" id="btn-halloween">Trick or Treat?</button>
+    </section>
+  </main>
 
 
-
-    </main>
-
-    <footer>
-
-    </footer>
+  <script src="script.js"></script>
 </body>
 </html>
